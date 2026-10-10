@@ -1,0 +1,24 @@
+{
+  "name": "tree-sitter-rost",
+  "version": "0.1.0",
+  "description": "Tree-sitter grammar for the .rost declarative styling and configuration language",
+  "main": "bindings/node",
+  "types": "bindings/node",
+  "keywords": [
+    "tree-sitter",
+    "rost",
+    "parser",
+    "syntax-highlighting"
+  ],
+  "author": "The Rost Project Contributors",
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.rost",
+      "file-types": [
+        "rost"
+      ],
+      "injection-regex": "^rost$"
+    }
+  ]
+}
