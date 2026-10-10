@@ -1,0 +1,25 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "rost",
+      "camelcase": "Rost",
+      "title": "Rost",
+      "scope": "source.rost",
+      "file-types": [
+        "rost"
+      ],
+      "injection-regex": "^rost$"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the .rost declarative styling and configuration language",
+    "authors": [
+      {
+        "name": "The Rost Project Contributors"
+      }
+    ]
+  }
+}
